@@ -433,7 +433,7 @@
 				DEVELOPMENT_TEAM = UBF8T346G9;
 				INFOPLIST_FILE = xcode7ObjectiveC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.runscope.all;
+				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.runscope.myweather;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -447,7 +447,7 @@
 				DEVELOPMENT_TEAM = UBF8T346G9;
 				INFOPLIST_FILE = xcode7ObjectiveC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.runscope.all;
+				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.runscope.myweather;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -460,7 +460,7 @@
 				DEVELOPMENT_TEAM = UBF8T346G9;
 				INFOPLIST_FILE = xcode7ObjectiveCTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.runscope.allTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.runscope.myweatherTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/xcode7ObjectiveC.app/xcode7ObjectiveC";
 			};
@@ -474,7 +474,7 @@
 				DEVELOPMENT_TEAM = UBF8T346G9;
 				INFOPLIST_FILE = xcode7ObjectiveCTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.runscope.allTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.runscope.myweatherTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/xcode7ObjectiveC.app/xcode7ObjectiveC";
 			};
@@ -487,7 +487,7 @@
 				DEVELOPMENT_TEAM = UBF8T346G9;
 				INFOPLIST_FILE = xcode7ObjectiveCUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.runscope.allUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.runscope.myweatherUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = xcode7ObjectiveC;
 			};
@@ -500,7 +500,7 @@
 				DEVELOPMENT_TEAM = UBF8T346G9;
 				INFOPLIST_FILE = xcode7ObjectiveCUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.runscope.allUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.runscope.myweatherUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = xcode7ObjectiveC;
 			};
