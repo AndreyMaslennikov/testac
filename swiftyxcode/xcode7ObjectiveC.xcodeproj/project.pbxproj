@@ -212,13 +212,19 @@
 				TargetAttributes = {
 					D2F092A71D9990B90049668C = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = UBF8T346G9;
+						ProvisioningStyle = Automatic;
 					};
 					D2F092C31D9990B90049668C = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = UBF8T346G9;
+						ProvisioningStyle = Automatic;
 						TestTargetID = D2F092A71D9990B90049668C;
 					};
 					D2F092CE1D9990B90049668C = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = UBF8T346G9;
+						ProvisioningStyle = Automatic;
 						TestTargetID = D2F092A71D9990B90049668C;
 					};
 				};
@@ -228,6 +234,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -420,12 +427,13 @@
 		D2F092D91D9990B90049668C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = A9M46DL4GH;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UBF8T346G9;
 				INFOPLIST_FILE = xcode7ObjectiveC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.mgtest.xcode7ObjectiveC;
+				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.runscope.all;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -433,12 +441,13 @@
 		D2F092DA1D9990B90049668C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = A9M46DL4GH;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UBF8T346G9;
 				INFOPLIST_FILE = xcode7ObjectiveC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.mgtest.xcode7ObjectiveC;
+				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.runscope.all;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -446,12 +455,12 @@
 		D2F092DC1D9990B90049668C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = A9M46DL4GH;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UBF8T346G9;
 				INFOPLIST_FILE = xcode7ObjectiveCTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.mgtest.xcode7ObjectiveCTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.runscope.allTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/xcode7ObjectiveC.app/xcode7ObjectiveC";
 			};
@@ -460,12 +469,12 @@
 		D2F092DD1D9990B90049668C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = A9M46DL4GH;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UBF8T346G9;
 				INFOPLIST_FILE = xcode7ObjectiveCTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.mgtest.xcode7ObjectiveCTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.runscope.allTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/xcode7ObjectiveC.app/xcode7ObjectiveC";
 			};
@@ -475,10 +484,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = A9M46DL4GH;
+				DEVELOPMENT_TEAM = UBF8T346G9;
 				INFOPLIST_FILE = xcode7ObjectiveCUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.mgtest.xcode7ObjectiveCUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.runscope.allUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = xcode7ObjectiveC;
 			};
@@ -488,10 +497,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = A9M46DL4GH;
+				DEVELOPMENT_TEAM = UBF8T346G9;
 				INFOPLIST_FILE = xcode7ObjectiveCUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.mgtest.xcode7ObjectiveCUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.runscope.allUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = xcode7ObjectiveC;
 			};
@@ -507,7 +516,7 @@
 				D2F092D71D9990B90049668C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		D2F092D81D9990B90049668C /* Build configuration list for PBXNativeTarget "xcode7ObjectiveC" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +525,7 @@
 				D2F092DA1D9990B90049668C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 		D2F092DB1D9990B90049668C /* Build configuration list for PBXNativeTarget "xcode7ObjectiveCTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +534,7 @@
 				D2F092DD1D9990B90049668C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 		D2F092DE1D9990B90049668C /* Build configuration list for PBXNativeTarget "xcode7ObjectiveCUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +543,7 @@
 				D2F092E01D9990B90049668C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
